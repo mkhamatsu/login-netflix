@@ -1,69 +1,72 @@
-    @media(max-width:600px) {
-        body {
-            background-color: black;
-            background-image: none;
-            direction: ltr;
-        }
-        .logo {
-            margin-top: auto;
-            float: left;
-            width: 100px;
-        }
-        .login {
-            flex-direction: column;
-            margin: 0;
-            min-height: 515px;
-            padding: 0 0 30px;
-            width: 100%;
-        }
-        input {
-            margin: 0;
-        }
-        .site-footer {
-            min-width: 190px;
-            width: 100%;
-            margin-top: 5px;
-            padding-bottom: 20px;
-            font-size: 1em;
-            color: #757575;
-            position: relative;
-        }
-        .site-footer .footer-top {
-            padding: 0;
-            margin-left: 100px;
-        }
-        ul {
-            padding-inline-start: 100px;
-        }
-        .selectlanguage {
-            padding-inline-start: 110px;
-        }
-        .selectLanguage img {
-            width: 25px;
-            height: 25px;
-            left: 16%;
-            top: 7px;
-            position: relative;
-        }
+@media(max-width:600px) {
+    body {
+        background-color: black;
+        background-image: none;
+        direction: ltr;
     }
-    
-    @media (max-width:420px) {
-        .site-footer .footer-top {
-            padding: 0;
-            margin-left: 60px;
-        }
-        ul {
-            padding-inline-start: 60px;
-        }
-        li {
-            margin-right: 10px;
-            min-width: 100px;
-            width: 20%;
-        }
-        .language {
-            margin-left: 26px;
-        }
-        .selectLanguage img {
-            left: 15%;
-        }
+    .logo {
+        margin-top: auto;
+        float: left;
+        width: 100px;
     }
+    .card {
+        height: 350px;
+    }
+    .login {
+        flex-direction: column;
+        margin-top: 0;
+        height: 420px;
+        padding: 0 0 30px;
+        width: 100%;
+    }
+    input {
+        margin: 0;
+    }
+    .site-footer {
+        min-width: 190px;
+        width: 100%;
+        margin-top: 5px;
+        padding-bottom: 20px;
+        font-size: 1em;
+        color: #757575;
+        position: relative;
+    }
+    .site-footer .footer-top {
+        padding: 0;
+        margin-left: 100px;
+    }
+    ul {
+        padding-inline-start: 100px;
+    }
+    .selectlanguage {
+        padding-inline-start: 110px;
+    }
+    .selectLanguage img {
+        width: 25px;
+        height: 25px;
+        left: 16%;
+        top: 7px;
+        position: relative;
+    }
+}
+
+@media (max-width:420px) {
+    .site-footer .footer-top {
+        padding: 0;
+        margin-left: 60px;
+    }
+    ul {
+        padding-inline-start: 60px;
+    }
+    li {
+        margin-right: 10px;
+        min-width: 100px;
+        width: 20%;
+    }
+    .language {
+        margin-left: 26px;
+    }
+    .selectLanguage img {
+        left: 15%;
+    }
+}
