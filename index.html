@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="netflix icon" type="image/png" href="imgs/icon_netflix.png">
+    <title>Netflix</title>
+</head>
+
+<body>
+    <header claass="login-header">
+        <a href="https://www.netflix.com/br/" id="home">
+            <img src="imgs/logo_netflix.png" alt="Netflix" class="logo">
+        </a>
+    </header>
+    <div class="login">
+        <form class="card">
+            <div class="card-header">
+                <h1>Entrar</h1>
+            </div>
+            <div class="card-content">
+                <div class="card-content-area">
+                    <input type="text" name="user" id="user" class="input-user" autocomplete="email" placeholder="Email ou número de telefone">
+                </div>
+                <div class="card-content-area">
+                    <input type="password" name="password" id="password" autocomplete="on" placeholder="Senha">
+                </div>
+            </div>
+            <div class="card-footer">
+                <input type="submit" value="Entrar" class="submit">
+                <div>
+                    <input type="checkbox" class="check" checked>
+                    <label class="remember">Lembre-se de mim</label>
+                    <a href="https://www.netflix.com/br/LoginHelp " id="help">Precisa de ajuda?</a>
+                </div>
+                <div class="login-footer">
+                    <img src="imgs/logo_facebook.png" alt="Facebook" class="facebook">
+                    <a href="https://pt-br.facebook.com/" id="fb">Conectar com Facebook</a>
+                </div>
+                <p id="new">Novo por aqui? <a href="https://www.netflix.com/br/" id="assinatura">Assine agora.</a></p>
+                <p id="reCAPTCHA">Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô
+                    <a id="more" href="#">Saiba mais.</a>
+                </p>
+            </div>
+        </form>
+    </div>
+    <div class="site-footer">
+        <p class="footer-top">
+            Dúvidas? Ligue
+            <a href="tel:0800-761-4631 ">0800-761-4631</a>
+        </p>
+        <ul>
+            <li>
+                <a class="footer-link" href="https://help.netflix.com/support/412 " placeholder="footer_link_faq">
+                    <span id="perguntasFrequentes">Perguntas frequentes</span>
+                </a>
+            </li>
+            <li>
+                <a class="footer-link" href="https://help.netflix.com" placeholder="footer_link_help">
+                    <span id="centroDeAjuda">Centro de ajuda</span>
+                </a>
+            </li>
+            <li>
+                <a class="footer-link" href="https://help.netflix.com/legal/termsofuse" placeholder="footer_link_terms">
+                    <span id="termosDeUso">Termos de uso</span>
+                </a>
+            </li>
+            <li>
+                <a class="footer-link" href="https://help.netflix.com/legal/privacy " placeholder="footer_link_privacy">
+                    <span id="privacidade">Privacidade</span>
+                </a>
+            </li>
+            <li>
+                <a class="footer-link" href="#" placeholder="footer__link_cookies">
+                    <span id="prefereciasDeCookies">Preferências de cookies</span>
+                </a>
+            </li>
+            <li>
+                <a class="footer-link" href="https://help.netflix.com/legal/corpinfo" placeholder="footer_link_corporate_information">
+                    <span id="informacoesCorporativas">Informações corporativas</span>
+                </a>
+            </li>
+        </ul>
+        <div class="selectLanguage">
+            <img src="imgs/language.png" id="img-footer" alt="language">
+            <select class="language">
+                <option value="portugues">Português</option>
+                <option value="english">English</option>
+            </select>
+        </div>
+    </div>
+
+</html>

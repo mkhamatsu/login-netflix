@@ -1,0 +1,232 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(imgs/plano_fundo_netflix.jpg);
+    box-shadow: inset -1000px 200vh rgba(0, 0, 0, 0.6);
+    background-repeat: no-repeat;
+}
+
+header {
+    height: 50px;
+    padding: 0;
+}
+
+.logo {
+    margin-top: auto;
+    margin-left: 20px;
+    float: left;
+    width: 215px;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 65px 95px 65px;
+    height: 100vh;
+    width: 55vw;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 5px;
+    width: 380px;
+    height: 550px;
+}
+
+.card-header {
+    padding-bottom: auto;
+    color: white;
+    text-decoration: none;
+    margin: 0 35px;
+}
+
+.card-content-area {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    color: black;
+    margin: 0 35px;
+}
+
+.card-content-area input {
+    margin-top: 10px;
+    padding: 0 5px;
+    height: 45px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid #e1e1e1;
+    outline: none;
+    color: black;
+    border-radius: 4px;
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: column;
+    margin: 0 35px;
+}
+
+.login-footer {
+    margin-top: 45px;
+}
+
+#fb {
+    color: #737373;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.facebook {
+    width: 20px;
+}
+
+.card-footer .submit {
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    background-color: #e50914;
+    border: none;
+    color: #e1e1e1;
+    margin: 10px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.card-footer a {
+    text-align: right;
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.card-footer a:hover {
+    text-decoration: underline;
+}
+
+.login-footer a:hover {
+    text-decoration: none;
+}
+
+.remember {
+    color: rgb(179, 179, 179);
+    font-size: 13px;
+    font-weight: 500;
+    text-align: left;
+}
+
+input:checked {
+    color: black;
+}
+
+#help {
+    cursor: pointer;
+    color: rgb(179, 179, 179);
+    font-size: 13px;
+    padding-top: 2px;
+    margin: 0 1px 0 55px;
+}
+
+#new {
+    font-size: 16px;
+    color: rgb(115, 115, 115)
+}
+
+#assinatura {
+    font-size: 16px;
+    color: #fff;
+}
+
+#reCAPTCHA {
+    color: #8c8c8c;
+    font-size: 13px;
+}
+
+#more {
+    text-align: right;
+    font-size: 14px;
+    color: #0071eb;
+    text-decoration: none;
+}
+
+.site-footer {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 258px;
+    align-content: center;
+    color: #757575;
+    padding-top: 2%;
+}
+
+.site-footer a {
+    color: #757575;
+    text-decoration: none;
+}
+
+.site-footer .footer-top {
+    margin-left: 155px;
+    font-size: 16px;
+    padding: 35px 10px 0 10px;
+}
+
+.site-footer a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    margin-top: 30px;
+    padding-inline-start: 165px;
+    align-items: center;
+    max-width: 1000px;
+    font-size: 13px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    margin-right: 40px;
+    min-width: 100px;
+    width: 20%;
+    padding-right: 12px;
+    vertical-align: top;
+}
+
+li a {
+    margin: 0;
+    text-decoration: none;
+    color: #757575;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.language {
+    color: #737373;
+    background-color: black;
+    margin-left: 10%;
+    width: 140px;
+    height: 45px;
+    text-align: center;
+    border: 1px solid #333;
+    z-index: 0;
+}
+
+.selectLanguage {
+    width: 100%;
+    z-index: 1;
+}
+
+.selectLanguage img {
+    width: 25px;
+    height: 25px;
+    left: 12.5%;
+    top: 7px;
+    position: relative;
+}
